@@ -1,0 +1,63 @@
+.header{
+    margin: 0;
+    background-color: grey;
+}
+.logo_header{
+    height: 200px;
+    width: 200px;
+
+}
+h1{
+    color: gold;
+    text-align: center;
+}
+
+.menu{
+    background-color: darkgray;
+    text-align: center;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    background-color: darkgray;
+    width: 200px;
+
+
+}
+.menu li a {
+    color: black;
+}
+
+.catalogo{        /*ORDENADO EN 4FILAS*/
+    background-color:goldenrod;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.tarjeta_producto{ /*ESTAN DENTRO DEL CATALOGO*/
+    background-color: gold;
+    margin: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.titulo_producto{ /*NOMBRE PRODUCTOS*/
+    color: black;
+}
+
+.descripcion_producto{
+    border: solid grey 2px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+.productos{   /*IMAGENES*/
+    margin: 5;
+    height: 200px;
+    width: 200px;
+}
