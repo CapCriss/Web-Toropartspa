@@ -1,3 +1,6 @@
+
+
+/*-----------------------------------CATÁLOGO-----------------------------------*/
 .header{
     margin: 0;
     background-color: grey;
@@ -61,3 +64,27 @@ h1{
     height: 200px;
     width: 200px;
 }
+
+/*-----------------------------------QUIENES SOMOS-----------------------------------*/
+.quienes_somos{
+    background-color: goldenrod;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tarjetas_informacion{
+    background-color: gold;
+    margin: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+.mision, .vision, .sobre_nuestros_productos{
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+
+}
+/*-----------------------------------CONTACTO-----------------------------------*/
