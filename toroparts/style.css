@@ -90,7 +90,47 @@ header{
 }
 
 
+/*------------------------------------------------CONTACTO------------------------------------------------*/
+.contacto{
+    
+    display: block;
 
+}
+
+.logo-contacto{
+    margin: 10px;
+    display: inline-block;
+    order: end;
+}
+
+.contacto h4{
+    text-align: center;
+}
+.contacto a{
+    text-decoration: none;
+}
+
+.tarjeta-contacto{
+    border: solid grey;
+    border-radius: 10px;
+    margin: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.tarjeta-contacto img{
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.contacto .tarjeta-contacto:hover{
+    transform: scale(1.04);
+    box-shadow: darkgrey 2px 2px 1px 1px;
+}
 
 
 /*------------------------------------------------ RESPONSIVE------------------------------------------------ */
@@ -128,5 +168,10 @@ header{
         /* ABRIR - CERRAR MENÚ */
     #check:checked ~ .menu{
         right: 0;
+    }
+
+    /* CATALOGO */
+    .catalogo{
+       grid-template-columns: repeat(2,1fr);
     }
 }
