@@ -1,123 +1,113 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toro Parts SPA</title>
-    <link rel="stylesheet" href="/toroparts/style.css">
+    <link rel="stylesheet" href="/toroparts/style.css">    
+
 </head>
 <body>
-    <div class="header">
-        <img class="logo_header" src="/toroparts/images/logo_png_toropartspa.png">
-        <h1>Toro Parts SPA</h1>
-        <div class="menu"> 
-            <ul>
-                <li>
-                    <a href="/toroparts/index.html">Catálogo</a>
-                </li>
-                <li>
-                    <a href="/toroparts/quienesomos.html">Quienes somos</a>
-                </li>
-                <li>
-                    <a href="/toroparts/contacto.html">Contáctanos</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="catalogo">
+<!-- AQUI SE MUESTRA LOGO, TITULO Y MENÚ -->
+    <header>
+        <img class="logo-img"  src="/toroparts/images/logo_png_toropartspa.png" height="100px" width="100px">
+        <h2 class="nombre-logo">Toro Parts SPA</h2>
         
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span class="titulo_producto">Nombre Producto 1</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+<!-- PARA MOSTRAS Y OCULTAR MENU EN DISPOSITIVOS MÓVILES  -->
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+
+        <nav class="menu">
+            <a href="/toroparts/index.html">Catálogo</a>
+            <a href="/toroparts/contacto.html">Contácto</a>
+            <a href="/toroparts/quienes-somos.html">Quiénes Somos</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+        </nav>
+    </header>
+    
+<!-- AQUÍ SE MUESTRA EL CATÁLOGO -->
+    <section class="catalogo">
+
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto">Titulo Producto 1</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 2</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 2</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet
+             culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 3</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 3</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 4</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 4</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 5</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 4</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 6</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 4</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 7</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 4</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 8</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 4</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 9</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 4</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
-        <div class="tarjeta_producto">
-            <img class="productos" src="/toroparts/images/productos/productos_prueba1.jpg">
-            <br>
-            <span>Nombre Producto 10</span>
-            <div class="descripcion_producto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, possimus quia dolorem quaerat eos sequi? Repudiandae vero, et odio doloribus nobis ullam! Fugit, perspiciatis unde! Quam neque est vero?</p>
-            </div>
+        <div class="tarjeta-productos">
+            <img src="/toroparts/images/productos/productos_prueba1.jpg"> <br>
+            <span class="titulo-producto" >Titulo Producto 4</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus reiciendis, alias odio amet 
+            culpa quo repudiandae incidunt praesentium officiis atque consequatur ab similique nesciunt cumque!</p>
         </div>
 
 
-    </div>
+    </section>
+
+
+
+  
 
     
 </body>
